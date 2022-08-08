@@ -61,7 +61,7 @@ a:hover {
   text-align: center;
   position: absolute;
   top: 48%;
-  left: 43.5%;
+  left: 43.2%;
   margin-left: auto;
   margin-right: auto;
   font-weight: bolder;
@@ -85,8 +85,14 @@ h2 {
   margin-top: 0;
 }
 
+/*introduction*/
+
 #skill {
-  margin-top: 2em;
+  padding: 0em 14em 0em 14em;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 1em;
+  word-spacing: 4px;
 }
 
 #caption {
@@ -99,12 +105,18 @@ h2 {
 }
 
 #introcontent {
-  /* background-color: aquamarine; */
-  padding: 0em 11em 0em 11em;
-  text-align: center;
+  padding: 0em 15em 0em 15em;
   /* margin-bottom: 0; */
-  margin-top: 2em;
+  margin-top: 1.5em;
+  word-spacing: 2px;
 }
+
+.intro1 {
+  line-height: 1.3em;
+  text-align: justify;
+}
+
+/*more information*/
 
 .more {
   margin-top: 1em;
@@ -120,6 +132,8 @@ h2 {
 h4 {
   font-size: 18px;
   margin: 10px;
+  text-align: center;
+  margin-top: 0;
 }
 
 h1 {
@@ -127,27 +141,16 @@ h1 {
   color: #4b4b4b;
 }
 
-h4 {
-  text-align: center;
-  margin-top: 0;
-}
-
 .moreContact {
   margin-top: 1em;
   text-align: center;
 }
 
-.resumeTitle,
-.projectTitle {
+.resumeTitle {
   font-size: 30px;
   color: #4b4b4b;
   margin-left: auto;
   margin-right: auto;
-}
-
-.projectTitle {
-  margin-bottom: 0;
-  text-align: center;
 }
 
 .resumePage {
@@ -177,78 +180,85 @@ h4 {
   color: #4b4b4b;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.ios {
+  background-color: #dce4df;
+  padding-bottom: 1.5em;
+  width: 900px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
 }
 
 .project_ios_title {
   text-align: center;
   font-size: 25px;
-  margin-top: 2em;
+  padding-top: 1em;
 }
 
-.list1 {
-  flex-flow: row;
-  justify-content: space-evenly;
-  display: flex;
-  /* align-items: center; */
+.ios__text {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0em 9em 0 9em;
+  text-align: justify;
+  line-height: 1.2em;
+  word-spacing: 0.1em;
+  font-size: 18px;
+}
+
+.web {
   background-color: #dce4df;
-  margin-top: 2em;
+  width: 900px;
+  height: 810px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
 }
 
-.ios {
-  width: 600px;
-  height: 600px;
-  /* background-color: thistle; */
+.project_web_title {
+  padding-top: 1em;
+  text-align: center;
+  font-size: 25px;
 }
 
-.img__ios {
+._link {
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(45, 43, 43);
+  text-decoration: underline;
+}
+
+.__text {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0em 9em 0 9em;
+  text-align: justify;
+  line-height: 1.4em;
+  font-size: 18px;
+}
+
+.__img {
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-.ios__title,
-.movie__title,
-.weather__title {
+.weather__img {
+  margin-top: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.__title {
   text-align: center;
   font-size: 19px;
   font-weight: bolder;
   color: rgb(45, 43, 43);
-}
-
-.ios__content,
-.movie__content .weather__content {
-  margin-top: 2em;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0em 5em 0em 5em;
-  text-align: justify;
-}
-
-.web {
-  width: 600px;
-  height: 600px;
-  /* background-color: yellow; */
-}
-
-.weather__img,
-.movie__img {
-  padding: 0%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  border: 0;
-  padding: 0;
-}
-.weather__text {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-.list2 {
-  background-color: #dce4df;
-  margin-top: 2em;
 }
 
 #myBtn {
