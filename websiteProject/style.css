@@ -73,7 +73,6 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   opacity: 0;
-  cursor: pointer;
   transition: opacity 0.25s;
 }
 
@@ -105,7 +104,7 @@ h2 {
 }
 
 #introcontent {
-  padding: 0em 15em 0em 15em;
+  padding: 0em 19.7em 0em 19.7em;
   /* margin-bottom: 0; */
   margin-top: 1.5em;
   word-spacing: 2px;
@@ -278,4 +277,10 @@ h1 {
 
 #myBtn:hover {
   background-color: #555;
+}
+
+@media (max-width: 1024px) {
+  #skill {
+    padding: 0em 3em;
+  }
 }
