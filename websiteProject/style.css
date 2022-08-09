@@ -240,7 +240,8 @@ h1 {
   font-size: 18px;
 }
 
-.__img {
+.ios_img,
+.movie_img {
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -280,7 +281,115 @@ h1 {
 }
 
 @media (max-width: 1024px) {
+  main {
+    flex: 0.8;
+    padding-bottom: 3px;
+  }
+
+  .photo__img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .photo__title {
+    font-size: 25px;
+    left: 37%;
+  }
+
+  h2 {
+    font-size: 25px;
+    font-weight: bolder;
+  }
   #skill {
-    padding: 0em 3em;
+    padding: 1em 1.5em;
+    font-size: 16px;
+  }
+
+  #introcontent {
+    padding: 0em 1.5em;
+    font-size: 16px;
+  }
+
+  #moreAboutMe {
+    font-size: 17px;
+  }
+
+  a {
+    font-size: 16px;
+  }
+
+  h4 {
+    font-size: 17px;
+  }
+
+  .resumePdf {
+    width: 80%;
+    height: 600px;
+  }
+
+  .project_ios_title,
+  .project_web_title {
+    font-size: 20px;
+  }
+
+  .ios {
+    padding: 0%;
+    width: 500px;
+    height: 450px;
+  }
+
+  .ios_img {
+    width: 135px;
+    height: 130px;
+  }
+
+  .movie_img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .weather__img {
+    width: 200px;
+    height: 50px;
+  }
+
+  .__title,
+  ._link {
+    font-size: 16px;
+  }
+
+  .ios__text {
+    padding: 0em 4em 0 4em;
+    text-align: justify;
+    line-height: 1.2em;
+    word-spacing: 0.1em;
+    font-size: 14px;
+  }
+
+  .__text {
+    padding: 0em 3em 0 3em;
+    text-align: justify;
+    line-height: 1.2em;
+    word-spacing: 0.1em;
+    font-size: 14px;
+  }
+
+  .web {
+    width: 500px;
+    height: 635px;
+    margin-bottom: 0.8em;
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    border-radius: 800%;
+    font-size: 9px;
+    font-weight: bolder;
+    border: none;
+    width: 1.9rem;
+    height: 1.9rem;
+    bottom: 1rem;
+    right: 0.2rem;
   }
 }
