@@ -266,20 +266,22 @@ h1 {
 #myBtn {
   display: none;
   position: fixed;
-  border-radius: 50%;
+  background-color: transparent;
+  outline: none;
+
   font-size: 16px;
   border: none;
-  width: 3rem;
-  height: 3rem;
-  bottom: 2rem;
-  right: 2rem;
-  background-color: rgb(193, 180, 180);
-  opacity: 0.5;
+  width: 2rem;
+  height: 2rem;
+  bottom: 1rem;
+  right: 1rem;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  opacity: 0.6;
   cursor: pointer;
 }
 
 #myBtn:hover {
-  background-color: #555;
+  /* background-color: #555; */
 }
 
 @media (max-width: 1024px) {
@@ -351,7 +353,7 @@ h1 {
 
   .ios {
     padding: 0%;
-    width: 360px;
+    width: 340px;
     height: 450px;
     padding-right: 3px;
   }
@@ -393,27 +395,13 @@ h1 {
   }
 
   .web {
-    width: 360px;
+    width: 340px;
     height: 700px;
     margin-bottom: 0.8em;
   }
 
-  #myBtn {
-    /* display: none;
-    position: fixed;
-    border-radius: 800%;
-    font-size: 9px;
-    font-weight: bolder;
-    border: none;
-    width: 1.9rem;
-    height: 1.9rem;
-    bottom: 1rem;
-    right: 0.2rem; */
-    background: none;
-    font-display: none;
-  }
-
-  button {
-    color: rgba(255, 255, 255, 0.4);
+  .btnImg {
+    width: 0;
+    height: 0;
   }
 }
